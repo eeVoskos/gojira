@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gojira">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.gojira.app.GojiraApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Gojira">
+
+        <activity
+            android:name="com.gojira.ui.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Gojira.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.gojira.ui.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.Gojira.Login"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.gojira.ui.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Gojira.NoActionBar" />
+
+    </application>
+
+</manifest>

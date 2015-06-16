@@ -1,0 +1,60 @@
+<resources>
+
+    <style name="Theme" />
+
+    <style name="Widget" />
+
+    <style name="Theme.Gojira" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorButtonNormal">@color/primary</item>
+
+        <item name="actionBarStyle">@style/Widget.Gojira.ActionBar</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.Gojira.NoActionBar" parent="Theme.Gojira">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Gojira.Login" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorButtonNormal">@color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/primary</item>
+    </style>
+
+    <style name="TextAppearance.Gojira.TextInputLayout.Hint" parent="TextAppearance.Design.Hint">
+        <item name="android:textColor">@color/hint</item>
+    </style>
+
+    <style name="TextAppearance.Gojira.TextInputLayout.Error" parent="TextAppearance.Design.Error">
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="Widget.Gojira.ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="displayOptions">showTitle</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="Widget.Gojira.Button" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="Widget.Gojira.Button.Inverse" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">?colorPrimary</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="Widget.Gojira.TextInputLayout" parent="Widget.Design.TextInputLayout">
+        <item name="errorEnabled">true</item>
+        <item name="hintTextAppearance">@style/TextAppearance.Gojira.TextInputLayout.Hint</item>
+        <item name="errorTextAppearance">@style/TextAppearance.Gojira.TextInputLayout.Error</item>
+    </style>
+
+</resources>
