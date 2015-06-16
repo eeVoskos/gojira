@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gojira.ui.MainActivity"
+    tools:ignore="AlwaysShowAction">
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_action_more"
+        android:title="@string/action_more"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/action_logout"
+                android:title="@string/action_logout"
+                app:showAsAction="always|withText" />
+        </menu>
+
+    </item>
+
+</menu>

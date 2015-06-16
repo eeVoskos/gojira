@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">Gojira</string>
+    <string name="app_description"><b>Gojira</b> is a portmanteau of the Japanese words gorira (gorilla) and kujira (whale) that refers to a giant monster or daikaiju originating from a series of tokusatsu films of the same name from Japan.</string>
+
+    <!-- Titles for Activities, Tabs, etc -->
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_main">Gojira</string>
+    <string name="title_tab_projects">Projects</string>
+    <string name="title_tab_dashboards">Dashboards</string>
+
+    <!-- Action labels -->
+    <string name="action_retry">Retry</string>
+    <string name="action_more">More</string>
+    <string name="action_login">Login</string>
+    <string name="action_logout">Logout</string>
+
+    <!-- Login Screen -->
+    <string name="label_login">Login</string>
+    <string name="input_server_hint">Server</string>
+    <string name="input_username_hint">Username</string>
+    <string name="input_password_hint">Password</string>
+
+    <!-- Project List -->
+    <string name="list_projects_empty">No projects</string>
+    <string name="list_projects_error">Could not find projects</string>
+
+    <!-- Dashboard List -->
+    <string name="list_dashboards_empty">No dashboards</string>
+    <string name="list_dashboards_error">Could not find dashboards</string>
+
+    <!-- Error -->
+    <string name="error_network">Please check your connection</string>
+    <string name="error_server">Invalid Server</string>
+    <string name="error_username">Invalid Username</string>
+    <string name="error_password">Invalid Password</string>
+    <string name="error_login">Login failed</string>
+    <string name="error_unknown">Unknown error</string>
+
+</resources>
